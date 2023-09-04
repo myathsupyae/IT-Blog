@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 10px solid transparent;
+    padding: 10px;
+    /*border-image: url(../images/border.png) 40 round;*/
+    /*border-image: url("../images/border.png") 20% round;*/
+    border-image: url("../images/border.png") 30% round;
+    text-align: center;
+    background-image: linear-gradient(pink,rgba(234, 251, 234, 0.628),white);
+  }
+body{
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    color: rgb(246, 157, 212);
+    text-shadow: 1px 1px 2px rgb(72, 150, 72);
+    font-family: 'Dancing Script', cursive;
+}
+.nav{
+    overflow: hidden;
+    background-color: rgb(252, 179, 217);
+}
+.nav a{
+    float: left;
+    display: block;
+    color: rgb(223, 51, 51);
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-shadow: 1px 1px 2px rgb(250, 161, 87);
+}
+.nav a:hover{
+    background-color: rgb(230, 122, 247);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.left-column{
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(241, 210, 228);
+}
+.mid-column{
+    float: left;
+    width: 60%;
+    padding: 15px;
+    background-color: rgb(241, 210, 228);
+}
+.right-column{
+    float: left;
+    width: 20%;
+    padding: 5px;
+    background-color: rgb(241, 210, 228);
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(160, 95, 135);
+    padding: 20px;
+}
+/* Profile */
+.profile-img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.post{
+    background-color: rgb(250, 215, 221);
+    box-shadow: 1px 1px 2px pink;
+    padding: 5px;
+}
